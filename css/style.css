@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* SELETOR {
+      CODIGO CSS
+} */
+
+.topo{
+      text-align: center;
+      font-size: x-large;
+}
+
+img{
+      width: 150px;
+      height: 150px;
+}
+
+h2 {
+      width: auto;
+      height: 25px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* color: #18181b; */
+      /* color: rgb(255,32,65); */
+      background-color: rgba(0,0,0,0.05);
+      /* color: hsl(hue, saturation, lightness); */
+}
+
+.h2:hover{
+      background-color: blue;
+      color: white;
+}
+
+.final{
+      background-color: rgba(109, 8, 241, 0.9);
+      color: black;
+}
+
+.final:hover{
+      background-color: yellow;
+      color: green;
+}
