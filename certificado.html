@@ -1,51 +1,50 @@
-@charset "UTF-8";
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/certificados.css">
+    <title>Certificados</title>
+</head>
+<body>
 
-body{
-    background-color: black;
-}
+    <a href="Certificados/IMG_20230521_005842.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_005842.jpg" alt="microcamp"></a>
 
-img{
-    width: 150px;
-    height: 150px;
-    border: 2px solid black;
-}
 
-.imagem {
-    display: inline-block;
-}
-  
-.imagem img {
-    width: 200px;
-    height: 200px;
-    transition: transform 0.3s;
-}
-  
-.imagem:hover img {
-    transform: scale(1.2);
-}
-  
-.lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-}
-  
-.lightbox img {
-    max-width: 80%;
-    max-height: 80%;
-}
-  
-.lightbox.active {
-    opacity: 1;
-    pointer-events: auto;
-}
+    <a href="Certificados/IMG_20230521_010009.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010009.jpg" alt="informatica"></a>
+
+    <a href="Certificados/IMG_20230521_010107.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010107.jpg" alt="semana da saude"></a>
+
+    <a href="Certificados/IMG_20230521_010140.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010140.jpg" alt="agente jovem"></a>
+
+    <a href="Certificados/IMG_20230521_010200.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010200.jpg" alt="alimente se bem"></a>
+
+    <a href="Certificados/IMG_20230521_010311.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010311.jpg" alt="raio x da alma"></a>
+
+    <a href="Certificados/IMG_20230521_010955.jpg" class="imagem">
+    <img src="Certificados/IMG_20230521_010955.jpg" alt="jfl"></a>
+
+    <a href="Certificados/IMG_20230528_172316.jpg" class="imagem">
+    <img src="Certificados/IMG_20230528_172316.jpg" alt="love healing"></a>
+
+    <div id="lightbox" class="lightbox">
+        <span class="fechar">&times;</span>
+        <img id="imagem-ampliada" src="" alt="Imagem Ampliada">
+    </div>
+
+    <a href="index.html">Pagina Principal</a>
+    
+    <iframe src="Certificados/Paulinho certificado.pdf" width="100%" height="600px" frameborder="0"></iframe>
+
+
+    <script src="JavaScript/arquivo.js"></script>
+</body>
+</html>
